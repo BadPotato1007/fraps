@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3D Crossroads with A-Frame</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-plane position="0 0 -5" rotation="-90 0 0" width="20" height="20" color="#7BC8A4"></a-plane>        
+        <a-plane position="0 0.01 -5" rotation="-90 0 0" width="2" height="20" color="#333"></a-plane>
+        <a-plane position="0 0.01 -5" rotation="-90 0 90" width="2" height="20" color="#333"></a-plane>
+        
+
+        <a-box position="-1 0.01 -5" width="0.1" height="0.02" depth="20" color="#FFF"></a-box>
+        <a-box position="1 0.01 -5" width="0.1" height="0.02" depth="20" color="#FFF"></a-box>
+        <a-box position="0 0.01 -4" rotation="0 90 0" width="0.1" height="0.02" depth="20" color="#FFF"></a-box>
+        <a-box position="0 0.01 -6" rotation="0 90 0" width="0.1" height="0.02" depth="20" color="#FFF"></a-box>
+
+        <!-- Buildings -->
+        <a-box position="-6 1 -9" width="8" height="2" depth="8" color="#4CC3D9"></a-box>
+        <a-box position="6 1 -9" width="8" height="2" depth="8" color="#4CC3D9"></a-box>
+        <a-box position="-6 1 -1" width="8" height="2" depth="8" color="#4CC3D9"></a-box>
+        <a-box position="6 1 -1" width="8" height="2" depth="8" color="#4CC3D9"></a-box>
+    </a-scene>
+</body>
+</html>
+
